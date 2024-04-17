@@ -44,7 +44,7 @@
                                 <div>{{ Auth::user()->name }}</div>
                             </div>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow" data-bs-popper="static">
                             <a href="{{ route('profile') }}"
                                 class="dropdown-item">Profile Settings</a>
                             <div class="dropdown-divider"></div>
